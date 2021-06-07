@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/wg0rs9l5sl87ahvo?svg=true)](https://ci.appveyor.com/project/Evgeniy-27/ra-props-films-listing)
+
 Рейтинг фильмов
 ===
 
