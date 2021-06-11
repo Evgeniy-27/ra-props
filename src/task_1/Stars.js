@@ -6,7 +6,7 @@ import Star from './Star';
 function Stars(props) {
 
   const array = [1, 2, 3, 4, 5];
-  const stars = array.map(() => <Star key={shortid.generate()} />);
+  const stars = array.map(() => <li key={shortid.generate()}><Star /></li>);
   const { count } = props;
 
   return array.includes(count) && <ul className="card-body-stars u-clearfix">{stars.slice(0, count)}</ul>;
